@@ -34,12 +34,14 @@ function restcountry(){
     <h3 id="title"  >${data1[i].name}</h3>
       <img src="${data1[i].flag}" class="card-img-top" alt="flag img"> 
        <div class="card-body text-center" style="padding-top:5px;">
+       <div class="card-text text-center" style="padding-top:5px;">
       <h6 class="card-title">Capital : ${data1[i].subregion}</h6>
       <h6 class="card-title">Region : ${data1[i].region}</h6>
       <h6 class="card-title">Latlng : ${data1[i].latlng}</h6>
     <h6 class="card-title">Country Code : ${data1[i].alpha3Code}</h6>
     
     <button class="btn btn-primary" onclick="getWeather('${data1[i].name}')" >Click for Weather</button>
+    </div>
     </div>
     </div>
     </div>`
