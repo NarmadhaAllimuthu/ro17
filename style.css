@@ -1,0 +1,56 @@
+.card-title{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 8rem;
+    height: 1rem;
+}
+.card-header{
+       width: 15rem;
+    height: 12rem;
+}
+.card-img-top{
+    width: 8rem;
+    height: 6rem;
+}
+#img{
+    width: 8rem;
+    height: 6rem;
+}
+
+.col-sm-6{
+    width: 16rem;
+    height: 30rem;
+}
+.row{
+    display: table;
+    width: 54rem;
+    height: 14rem;
+}
+#h1{
+    text-align: center;
+    align-content: center;
+    color: black;
+    width: 15rem;
+    height: 1rem;
+    }
+
+
+#h3{
+text-align: center;
+align-content: center;
+color: black;
+width: 15rem;
+height: 1.5rem;
+}
+#h6{
+    text-align: center;
+    align-content: center;
+    color: black;
+    width: 15rem;
+    height: 1rem;
+    }
+#title{
+    background-color: black; 
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
