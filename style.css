@@ -1,25 +1,40 @@
-.card-title{
-    color: white;
+/* .card-title{
+    color: BLACK;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 8rem;
     height: 1rem;
 }
 .card-header{
-       width: 15rem;
-    height: 12rem;
+    background-color: slategrey!important;
+    background-color: black!important;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
+.card{
+    background-color: darkslategrey!important;
+       width: auto;
+    height: auto;
+}
+
+.card-body{
+    background-image: linear-gradient(to right, rgb(120, 125, 85) , rgb(80, 80, 41));
+}
+
 .card-img-top{
     width: 8rem;
     height: 6rem;
 }
 #img{
-    width: 8rem;
-    height: 6rem;
+    width: 25rem;
+    height: 15rem;
 }
 
 .col-sm-6{
-    width: 16rem;
-    height: 30rem;
+    height:450px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+      width: 350px;
+    display: inline;
 }
 .row{
     display: table;
@@ -50,7 +65,52 @@ height: 1.5rem;
     height: 1rem;
     }
 #title{
-    background-color: black; 
     color: white;
-    font-family: 'Times New Roman', Times, serif;
-}
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+
+
+.col-sm-6{
+    height:450px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+      width: 350px;
+    display: inline;
+  }
+    
+  body{
+      background-color: darkslategrey!important;
+  }
+  
+  .card{
+      background-color: darkslategrey!important;
+         width: auto;
+      height: auto;
+  }
+  .card-header{ 
+      background-color: slategrey!important;
+    
+      color: white;
+      font-family: 'Times New Roman', Times, serif;
+    }
+  
+    .card-body{
+      background-image: linear-gradient(to right, rgb(120, 125, 85) , rgb(80, 80, 41));
+      }
+  
+    #title{
+        background-color: black!important;
+        color: white;
+    }
+  .card-title{
+     
+         color: white;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .card-img-top{
+      width: 210px;
+      height: 130px;
+      padding-left : 2px; padding-right: 2px ;
+    
+  }
